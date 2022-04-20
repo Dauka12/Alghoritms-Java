@@ -11,8 +11,8 @@ public class IntegerNums {
         }
         for(int i = 0;i<5/2;i++){
             int t = list.get(i);
-            list.set(i, list.get(5-1-i));
-            list.set(5-1-i, t);
+            list.set(i, list.get(4-i));
+            list.set(4-i, t);
         }
         System.out.println(list);
     }
